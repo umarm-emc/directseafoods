@@ -1,0 +1,182 @@
+# Translation of Plugins - Widget CSS Classes - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - Widget CSS Classes - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-06-29 19:36:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Widget CSS Classes - Stable (latest release)\n"
+
+#: widget-css-classes.php:96
+msgid "Please update"
+msgstr "Please update"
+
+#. Translators: %1$s stands for the WP version and %2$s stands for "Please
+#. update" (a link).
+#: widget-css-classes.php:94
+msgid "Widget CSS Classes requires WordPress %1$s or newer. %2$s"
+msgstr "Widget CSS Classes requires WordPress %1$s or newer. %2$s"
+
+#: includes/widget-css-classes-settings.class.php:81
+msgid "None"
+msgstr "None"
+
+#: includes/widget-css-classes-settings.class.php:59
+msgid "Plugins that run after this plugin could still add duplicates."
+msgstr "Plugins that run after this plugin could still add duplicates."
+
+#: includes/widget-css-classes-settings.class.php:57
+msgid "Remove duplicate classes"
+msgstr "Remove duplicate classes"
+
+#: includes/widget-css-classes-settings.class.php:53
+msgid "Fix widget parameters"
+msgstr "Fix widget parameters"
+
+#: includes/widget-css-classes-settings.class.php:55
+msgid "Wrap widget in a <div> element if the parameters are invalid."
+msgstr "Wrap widget in a <div> element if the parameters are invalid."
+
+#: includes/widget-css-classes.class.php:199
+#: includes/widget-css-classes.class.php:226
+msgid "CSS Classes"
+msgstr "CSS Classes"
+
+#: includes/widget-css-classes-settings.class.php:80
+msgid "Both"
+msgstr "Both"
+
+#: includes/widget-css-classes-settings.class.php:79
+msgid "Predefined"
+msgstr "Predefined"
+
+#: includes/widget-css-classes-settings.class.php:52
+msgid "Predefined Classes"
+msgstr "Predefined Classes"
+
+#. Author URI of the plugin/theme
+msgid "http://cleverness.org"
+msgstr "http://cleverness.org"
+
+#. Author of the plugin/theme
+msgid "C.M. Kendrick"
+msgstr "C.M. Kendrick"
+
+#. Description of the plugin/theme
+msgid "Add custom, first, last, even, odd, and numbered classes to your widgets."
+msgstr "Add custom, first, last, even, odd, and numbered classes to your widgets."
+
+#. Plugin URI of the plugin/theme
+msgid "http://cleverness.org/plugins/widget-css-classes"
+msgstr "http://cleverness.org/plugins/widget-css-classes"
+
+#: includes/widget-css-classes.class.php:503
+msgid "widget-odd"
+msgstr "widget-odd"
+
+#: includes/widget-css-classes.class.php:502
+msgid "widget-even"
+msgstr "widget-even"
+
+#: includes/widget-css-classes.class.php:492
+msgid "widget-last"
+msgstr "widget-last"
+
+#: includes/widget-css-classes.class.php:491
+msgid "widget-first"
+msgstr "widget-first"
+
+#: includes/widget-css-classes.class.php:483
+msgid "widget-"
+msgstr "widget-"
+
+#: includes/widget-css-classes.class.php:171
+msgid "CSS ID"
+msgstr "CSS ID"
+
+#: includes/widget-css-classes-settings.class.php:254
+msgid "Import Settings"
+msgstr "Import Settings"
+
+#: includes/widget-css-classes-settings.class.php:250
+msgid "Export Settings"
+msgstr "Export Settings"
+
+#: includes/widget-css-classes-settings.class.php:248
+msgid "Import/Export Settings"
+msgstr "Import/Export Settings"
+
+#. #-#-#-#-#  widget-css-classes-code.pot (Widget CSS Classes 1.5.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: includes/widget-css-classes-settings.class.php:205
+msgid "Widget CSS Classes"
+msgstr "Widget CSS Classes"
+
+#: includes/widget-css-classes-settings.class.php:147
+msgid "No Settings File Selected"
+msgstr "No Settings File Selected"
+
+#: includes/widget-css-classes-settings.class.php:143
+msgid "Invalid Settings File"
+msgstr "Invalid Settings File"
+
+#: includes/widget-css-classes-settings.class.php:139
+msgid "Settings Imported"
+msgstr "Settings Imported"
+
+#: includes/widget-css-classes-settings.class.php:131
+msgid "Import/Export"
+msgstr "Import/Export"
+
+#: includes/widget-css-classes-settings.class.php:78
+msgid "Text"
+msgstr "Text"
+
+#: includes/widget-css-classes-settings.class.php:69
+msgid "No"
+msgstr "No"
+
+#: includes/widget-css-classes-settings.class.php:68
+msgid "Yes"
+msgstr "Yes"
+
+#: includes/widget-css-classes-settings.class.php:51
+msgid "Class Field Type"
+msgstr "Class Field Type"
+
+#: includes/widget-css-classes-settings.class.php:50
+msgid "Show Additional Field for ID"
+msgstr "Show Additional Field for ID"
+
+#: includes/widget-css-classes-settings.class.php:49
+msgid "Add Even/Odd Classes"
+msgstr "Add Even/Odd Classes"
+
+#: includes/widget-css-classes-settings.class.php:48
+msgid "Add First/Last Classes"
+msgstr "Add First/Last Classes"
+
+#: includes/widget-css-classes-settings.class.php:47
+msgid "Add Widget Number Classes"
+msgstr "Add Widget Number Classes"
+
+#: includes/widget-css-classes-settings.class.php:41
+#: includes/widget-css-classes-settings.class.php:46
+msgid "Widget CSS Classes Settings"
+msgstr "Widget CSS Classes Settings"
+
+#: includes/widget-css-classes-library.class.php:78
+msgid "Donate"
+msgstr "Donate"
+
+#: includes/widget-css-classes-library.class.php:75
+msgid "Version"
+msgstr "Version"
+
+#: includes/widget-css-classes-library.class.php:59
+msgid "Settings"
+msgstr "Settings"

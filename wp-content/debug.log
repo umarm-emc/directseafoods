@@ -1,0 +1,2 @@
+[12-Sep-2017 15:20:02 UTC] PHP Warning:  require_once(modules/is-debug.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/directseafoods/wp-content/themes/emc-child/functions.php on line 8
+[12-Sep-2017 15:20:02 UTC] PHP Fatal error:  require_once(): Failed opening required 'modules/is-debug.php' (include_path='.:/Applications/MAMP/bin/php/php7.0.0/lib/php') in /Applications/MAMP/htdocs/directseafoods/wp-content/themes/emc-child/functions.php on line 8
