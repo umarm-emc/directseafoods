@@ -42,17 +42,16 @@
 					<!-- CUSTOM CATEGORY LAYOUT BUILD - START -->
 					<div class="category-list">
 						<?php
-							$categories =  get_categories('child_of=17&hide_empty=0');
+							$args = array('parent' => 17);
+							$categories =  get_categories($args);
 
 							foreach ($categories as $category) :
 
-							if (function_exists('category_image_src')) {
-								$category_image = category_image_src( array( 'size' => 'full' ) , false );
-							} else {
-								$category_image = '';
-							}
-
-							$category_image = category_image_src( array( 'size' => 'full' ) , false );
+								if (function_exists('category_image_src')) {
+									$category_image = category_image_src( array( 'size' => 'full' ) , false );
+								} else {
+									$category_image = '';
+								}
 						?>
 
 			        		<div class="category-item">
@@ -62,12 +61,9 @@
 
 									<!-- CATEGORY IMAGE (TILE IMAGE) -->
 
-									<?php if ($category_image) : ?>
+									
 
-										<!-- category featured image -->
-											<img src="<?php echo $category_image; ?>" alt="<?php single_cat_title();?>" desc="<?php echo wp_strip_all_tags( category_description() );?>"/>
-
-									<?php endif; ?>
+									
 									<!--?php print apply_filters( 'taxonomy-images-list-the-terms', '', array(
 	    								'before'       => '',
 	    								'after'        => '',
@@ -81,8 +77,8 @@
 									<!-- /CATEGORY IMAGE (TILE IMAGE) -->
 
 									<h4 class="category-title">
-										<a href="<?php get_category_link( $category->term_id ); ?>" title="<?php echo $category->name; ?>">
-				                			<?php echo $category->name; ?>
+										<a href="<?= get_category_link( $category->term_id ); ?>" title="<?= $category->name; ?>">
+				                			<?= $category->name; ?>
 				            			</a>
 									</h4>
 
@@ -91,7 +87,7 @@
 			            		<p class="item-description">
 			                    	<?php echo $category->description; ?>
 
-									<a class="btn grad" href="<?php get_category_link( $category->term_id ); ?>" title="<?php echo $category->name; ?>">
+									<a class="btn grad" href="<?= get_category_link( $category->term_id ); ?>" title="<?= $category->name; ?>">
 										<?php echo ('Learn about us') ?>
 									</a>
 			            		</p>
